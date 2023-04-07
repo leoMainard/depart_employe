@@ -9,5 +9,7 @@ git checkout nom_branche
 
 # Pour push votre travail dans votre branche
 git add .
+
 git commit -m "Phrase pour décrire le commit"
+
 git push
