@@ -7,6 +7,6 @@ st.title('Tu pars ?')
 
 st.info('Objectif : Identifier les employés à risque de partir.')
 
-image_depart = Image.open('Streamlit/images/_depart.jpg')
+image_depart = Image.open('./images/_depart.jpg')
 
 st.image(image_depart)
