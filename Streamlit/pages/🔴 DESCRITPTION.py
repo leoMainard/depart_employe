@@ -50,7 +50,7 @@ st.info('Objectif : comprendre le jeu de données.')
 
 st.markdown('##### A travers notre fichier “depart_employes.csv” nous allons essayer d’expliquer et de prédire la variable “départ”.')
 st.dataframe(resumetable(data))
-st.write("On a donc 9 variables explicatives et 1 variable à expliquer : depart. Cette variable prendre la valeur 0 si "
+st.write("On a donc 9 variables explicatives et 1 variable à expliquer : depart. Cette variable prendre la valeur 1 si "
          "l'employé a quitté l'entreprise, 0 si ce n'est pas le cas")
 
 
