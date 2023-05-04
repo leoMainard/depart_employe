@@ -73,7 +73,7 @@ st.pyplot(fig)
 
 
 st.markdown('***')
-st.markdown("##### Quelle est la proportion de départ de maintient dans nos données ?")
+st.markdown("##### Quelle est la proportion de départ dans nos données ?")
 proportion = data['depart'].value_counts(normalize=True)
 prop1 , prop2 = st.columns(2)
 prop1.metric('Employés qui restent', f"{round(proportion[0],2)}%")
